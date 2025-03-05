@@ -11,6 +11,37 @@
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Italiana&display=swap" rel="stylesheet">
 </head>
 <body>
-
+<header>
+  <h1>EcoPledge</h1>
+  <p>Create Your EcoPledge Account and Make a Difference</p>
+</header>
+<main id="container">
+  <form method="POST" action="#null">
+    <div id="input-fullname"
+      <label for="fullname">Full name:</label>
+      <input type="text" id="fullname" name="fullname" required>
+    </div>
+    <div id="input-username">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+    </div>
+    <div id="input-pwd">
+      <label for="pwd">Password:</label>
+      <input type="password" id="pwd" name="pwd" required>
+    </div>
+    <div id="eco-focus"
+      <p>Choose Eco-Interest:</p>
+      <label for="zero-waste">Zero-Waste</label>
+      <input type="radio" id="zero-waste" name="zero-waste">
+      <label for="renewable-energy">Renewable Energy</label>
+      <input type="radio" id="renewable-energy" name="renewable-energy">
+      <label for="plant-based">Plant-Based Lifestyle</label>
+      <input type="radio" id="plant-based" name="plant-based">
+    </div>    
+    <div id="submit">
+      <input type="submit" id="submit" name="submit" value="Start My Journey">
+    </div>
+  </form>
+</main>
 </body>
 </html>
