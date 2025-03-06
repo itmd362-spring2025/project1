@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 h1, p, legend, label, #submit {
   font-family: "EB Garamond", "Italiana", serif;
   font-weight: 400;
