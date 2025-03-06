@@ -1,19 +1,18 @@
 h1, p {
-  font-family: "EB Garamond", serif;
+  font-family: "EB Garamond", "Italiana", serif;
   font-weight: 400;
   font-style: normal;
   text-align: center;
 }
 
-body {
-  background-color: #389033;
-}
+h1 {
+  font-size: 60px;
+} 
 
-#container {
-  background-color: #79BB76;
-  padding: 1em;
+p {
+  font-size: 20px;
 }
-
-#submit {
-  text-align: center;
+ 
+#slogan {
+  background-color: #9CCF94;
 }
