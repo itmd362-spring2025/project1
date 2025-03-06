@@ -4,3 +4,17 @@ h1, p, legend, label, #submit {
   font-style: normal;
   text-align: left;
 }
+
+h1 {
+  text-align: center;
+}
+
+legend {
+  font-size: 20px;
+  text-align: center;
+}
+
+body {
+  background-color: #ADCBAC;
+}
+
