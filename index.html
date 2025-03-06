@@ -11,40 +11,62 @@
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Italiana&display=swap" rel="stylesheet">
 </head>
 <body>
-<main id="container">
   <h1>EcoPledge</h1>
-  <div id="slogan">
-    <p>Create Your EcoPledge Account</p>
-  </div>
-  <form method="POST" action="#null">
-    <div id="input-fullname">
-      <label for="fullname">Full Name:</label>
-      <input type="text" id="fullname" name="fullname" required>
+  <fieldset>
+    <legend>Create Your EcoPledge Account</legend>
+    <div class="container">
+      <form method="POST" action="#null">
+        <div class="row">
+          <div class="col-one">
+            <label for="firstname">First Name</label>
+          </div>
+          <div class="col-two">
+            <input type="text" id="firstname" name="firstname" placeholder="Your first name.." required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-one">
+            <label for="lasttname">Last Name</label>
+          </div>
+          <div class="col-two">
+            <input type="text" id="lastname" name="lastname" placeholder="Your last name.." required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-one">
+            <label for="username">User Name</label>
+          </div>
+          <div class="col-two">
+            <input type="text" id="username" name="username" placeholder="Create user name.." required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-one">
+            <label for="pwd">Password</label>
+          </div>
+          <div class="col-two">
+            <input type="password" id="pwd" name="pwd" placeholder="Create password.." required>
+            <p id="text">WARNING&#33; Caps lock is ON&#46;</p>
+            <input type="checkbox" onclick="myFunction()">Show Password
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-one">
+            <label for="eco-interest">Eco-Interest</label>
+          </div>
+          <div class="col-two">
+            <select name="eco-interest" id="eco-interest" required>
+              <option value="zero-waste">Zero-Waste</option>
+              <option value="renewable-energy">Renewable Energy</option>
+              <option value="plant-based">Plant-Based Lifestyle</option>
+            </select>
+          </div>
+        </div>  
+        <div class="row">
+          <input type="submit" id="submit" name="submit" value="Start My Journey">
+        </div>
+      </form>
     </div>
-    <div id="input-email">
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-    </div>
-    <div id="input-username">
-      <label for="username">Username:</label>
-      <input type="text" id="username" name="username" required>
-    </div>
-    <div id="input-pwd">
-      <label for="pwd">Password:</label>
-      <input type="password" id="pwd" name="pwd" required>
-    </div>
-    <div id="eco-focus"
-      <label for="eco-interest">Eco-Interest:</label>
-      <select name="eco-interest" id="eco-interest" required>
-        <option value="zero-waste">Zero-Waste</option>
-        <option value="renewable-energy">Renewable Energy</option>
-        <option value="plant-based">Plant-Based Lifestyle</option>
-      </select>
-    </div>    
-    <div id="submit">
-      <input type="submit" id="submit" name="submit" value="Start My Journey">
-    </div>
-  </form>
-</main>
+  </fieldset>
 </body>
 </html>
