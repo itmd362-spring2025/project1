@@ -13,8 +13,14 @@ h1 {
   font-weight: 800;
 }
 
+#statement p {
+  font-size: 18px;
+  text-align: center;
+}
+
 legend {
   font-size: 20px;
+  font-weight: 450;
   text-align: center;
 }
 
@@ -107,6 +113,15 @@ input[type=submit]:hover {
     width: 50%;
     display: block;
     margin: 0 auto;
+    font-size: 20px;
+  }
+  
+  label {
+    font-size: 20px;
+  }
+  
+  #statement p {
+    font-size: 20px;
   }
 }
 
@@ -117,7 +132,6 @@ input[type=submit]:hover {
   
   input[type=submit] {
     width: 20%;
-    font-size: 20px;
   }
   
   legend {
@@ -126,5 +140,14 @@ input[type=submit]:hover {
   
   label {
     font-size: 20px;
+  }
+  
+  body {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  #statement p {
+    font-size: 23px;
   }
 }
