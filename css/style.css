@@ -13,9 +13,9 @@ h1 {
   font-weight: 800;
 }
 
-p {
+#statement p {
   font-size: 18px;
-  text-align: center;
+  text-align: left;
 }
 
 legend {
@@ -23,6 +23,11 @@ legend {
   font-weight: 450;
   text-align: center;
 }
+
+legend#statement1 {
+  text-align: left;
+}
+
 
 body {
   background-color: #ADCBAC;
