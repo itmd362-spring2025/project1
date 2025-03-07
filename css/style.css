@@ -13,7 +13,7 @@ h1 {
   font-weight: 800;
 }
 
-#statement p {
+p {
   font-size: 18px;
   text-align: center;
 }
@@ -96,6 +96,12 @@ input[type=submit]:hover {
   color: red;
 }
 
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
 @media screen and (min-width: 768px) {
   .col-one {
     float: left;
@@ -122,6 +128,11 @@ input[type=submit]:hover {
   
   #statement p {
     font-size: 20px;
+  }
+  
+  img {
+    width: 100%;
+    height: 200px;
   }
 }
 
